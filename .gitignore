@@ -110,3 +110,4 @@ ENV/
 .idea/workspace.xml
 data/
 jouleboulevard_metadata.csv
+/jouleboulevard_metadata.csv
