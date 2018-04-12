@@ -102,3 +102,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+/.idea/inspectionProfiles/Project_Default.xml
+.idea/jouleboulevard.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+data/
+jouleboulevard_metadata.csv
