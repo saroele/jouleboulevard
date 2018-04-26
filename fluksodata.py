@@ -27,7 +27,7 @@ def export_data(sensors_tokens, grouper=None, start=None, end=None, resolution=N
     if grouper is not None:
         grouped = sensors_tokens.groupby(grouper)
     else:
-        grouped = ('data', sensors_tokens)
+        grouped = [('data', sensors_tokens)]
 
     for group_name, group in tqdm(grouped):
         data = sync_and_get(
