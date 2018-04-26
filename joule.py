@@ -32,4 +32,4 @@ def remove_outliers(ts, min=0.05, max=0.95):
     res[res<vmin] = pd.np.nan
     res[res>vmax] = pd.np.nan
     return res
-    
+
